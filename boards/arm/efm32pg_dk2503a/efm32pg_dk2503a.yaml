@@ -1,0 +1,19 @@
+identifier: efm32pg_dk2503a
+name: EFM32PG-DK2503A
+type: mcu
+arch: arm
+ram: 32
+flash: 512
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - i2c
+  - gpio
+  - nvs
+  - watchdog
+testing:
+  ignore_tags:
+    - net
+    - bluetooth

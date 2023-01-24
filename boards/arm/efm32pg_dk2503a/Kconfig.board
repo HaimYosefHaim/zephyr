@@ -1,0 +1,10 @@
+# EFM32PG DK2503A board
+
+# Copyright (c) 2018, Christian Taedcke
+# Copyright (c) 2019  Lemonbeat GmbH
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_EFM32PG_DK2503A
+	bool "SiLabs EFM32PG-DK2503A (Pearl Gecko)"
+	depends on SOC_SERIES_EFM32PG22
+	select SOC_PART_NUMBER_EFM32PG22C200F512IM40

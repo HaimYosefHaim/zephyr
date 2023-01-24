@@ -1,0 +1,23 @@
+# EFM32PG1B MCU line
+
+# Copyright (c) 2020 Rafael Dias Menezes
+# SPDX-License-Identifier: Apache-2.0
+
+config SOC_SERIES_EFM32PG22
+	bool "EFM32PG22 Series MCU"
+	select ARM
+	select ARMV8_M_DSP
+	select ARM_TRUSTZONE_M
+	select CPU_CORTEX_M33
+	select CPU_HAS_ARM_MPU
+	select CPU_HAS_ARM_SAU
+	select CPU_HAS_FPU
+	select HAS_SILABS_GECKO
+	select HAS_SWO
+	select SOC_FAMILY_EXX32
+	select SOC_GECKO_CMU
+	select SOC_GECKO_CORE
+	select SOC_GECKO_EMU
+	select SOC_GECKO_GPIO
+	help
+	  Enable support for EFM32PG22 PearlGecko MCU series
