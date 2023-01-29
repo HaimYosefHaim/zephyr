@@ -98,7 +98,7 @@
 			#address-cells = <1>;
 			#size-cells = <1>;
 
-			gpioa: gpio@c {
+			gpioa: gpio@5003c000cc {
 				compatible = "silabs,gecko-gpio-port";
 				reg = <0x5003C000 0x30>;
 				gpio-controller;
