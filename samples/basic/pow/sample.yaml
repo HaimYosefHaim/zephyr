@@ -1,0 +1,7 @@
+sample:
+  description: An example to illustrate the usage of
+    awsome apps
+  name: pow
+common:
+  tags: pow
+  min_ram: 20
